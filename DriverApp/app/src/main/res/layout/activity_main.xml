@@ -18,7 +18,7 @@
         android:text="@string/email" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/loginbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/email"
@@ -28,7 +28,8 @@
         android:layout_marginLeft="46dp"
         android:layout_marginStart="46dp"
         android:layout_marginTop="40dp"
-        android:text="@string/login" />
+        android:text="@string/login"
+        android:onClick="onLogin"/>
 
 
 </RelativeLayout>
